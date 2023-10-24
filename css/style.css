@@ -7,7 +7,7 @@
 body {
     background-color: #fff;
     color: grey;
-    font-family: Droid Sans;
+    font-family: 'Droid Sans', sans-serif;
 }
 
 a {
@@ -21,6 +21,16 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+
+
+#activites h3 {
+    color: #e15200;
 }
 
 .container {
@@ -52,15 +62,78 @@ li {
     border: 1px solid lightgray;
 }
 
-#header, #contact {
+/* Header */
+
+#header, #contact, #slogan {
     background-image: url("/img/grille.png");
     background-repeat: repeat;
 }
 
+#header {
+    align-items: center;
+}
+
+#navbar h3 {
+    font-family: 'Oswald', serif;
+    font-size: 1em;
+    font-weight: 500;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+}
+
+.nav-list {
+    margin-left: 2.5em;
+}
+
+.nav-item {
+    font-size: 0.6em;
+    padding: 5px 0;
+}
+
+.border-bottom {
+    border-bottom: 4px solid;
+}
+
+.border-orange {
+    border-color: #e15200;
+}
+
+.border-yellow {
+    border-color: yellow;
+}
+
+.border-green {
+    border-color: lightgreen;
+}
+
+.border-blue {
+    border-color: blue;
+}
+
+.border-purple {
+    border-color: blueviolet;
+}
+/* Main */
+/* Video */
+
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.8em auto;
+}
+
+/* Slogan */
+#slogan {
+    text-align: center;
+}
+
+/* Activities */
 .contact-item {
     width: 20%;
 }
 
+/* Footer */
 #footer {
     margin-bottom: 2em;
 }
