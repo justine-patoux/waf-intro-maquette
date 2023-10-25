@@ -55,7 +55,7 @@ h3 {
 }
 
 .p-top-bot {
-    padding: 2em 0;
+    padding: 2.5em 0;
 }
 
 .b-grey {
@@ -113,6 +113,7 @@ h3 {
 .border-purple {
     border-color: #c078d0;
 }
+
 /* Main */
 /* Video */
 
@@ -126,11 +127,108 @@ h3 {
 /* Slogan */
 #slogan {
     text-align: center;
+    font-size: 22px;
+    font-family: 'Droid Serif';
+    font-style: italic;
+    padding: 2em 0;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid lightgrey;
 }
 
 /* Activities */
-.contact-item {
+
+#activites {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+#activites h3 {
+    font-family: 'Oswald', serif;
+    font-weight: 400;
+}
+
+#activites p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+article span {
+    margin: 1em 0;
+}
+
+.article-bloc-1 {
+    grid-column: 1;
+    padding: 10px;
+}
+
+.article-bloc-1 img {
+    display: block;
+    margin: 1.2em auto;
+}
+
+.article-bloc-2 {
+    grid-column: 2;
+}
+
+.article-bloc-3 {
+    grid-column: 3 / 5;
+    grid-row: 1;
+}
+
+.article-bloc-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.article-img {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.article-date {
+    font-size: 0.8em;
+    font-style: italic;
+    font-family: 'Droid Serif', serif;
+    color: lightgrey;
+    margin: 10px 0;
+}
+
+/* Contact */
+
+#contact {
+    padding: 1em 0;
+    margin: 1em 0;
+    border: 1px solid lightgrey;
+}
+
+#contact h3 {
+    font-size: 1em;
+    font-family: 'Oswald', serif;
+    font-weight: 400;
+}
+
+#contact h4 {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+#contact p {
+    font-size: 0.8em;
+}
+
+.contact-block {
     width: 20%;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
 }
 
 /* Footer */
