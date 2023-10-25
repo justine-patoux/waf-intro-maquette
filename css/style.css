@@ -148,15 +148,12 @@ h3 {
 #activites h3 {
     font-family: 'Oswald', serif;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 
 #activites p {
     font-size: 0.8em;
     line-height: 1.5em;
-}
-
-article span {
-    margin: 1em 0;
 }
 
 .article-bloc-1 {
@@ -196,7 +193,7 @@ article span {
     font-style: italic;
     font-family: 'Droid Serif', serif;
     color: lightgrey;
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 
 /* Contact */
@@ -211,6 +208,7 @@ article span {
     font-size: 1em;
     font-family: 'Oswald', serif;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 
 #contact h4 {
